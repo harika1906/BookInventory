@@ -12,6 +12,8 @@ namespace Inventory.Service
         {
             this._storeRepository = storeRepository;
         }
+
+        //commebts
         public List<BookStore> GetBooks()
         {
             return _storeRepository.GetBooks();
